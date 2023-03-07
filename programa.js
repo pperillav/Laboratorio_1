@@ -20,8 +20,7 @@ console.log(resultado[1])
 
 function calcular_hipotenusa(cat_a, cat_b){
 
-    const hip;
-    hip=Math.sqrt(cat_a**2+cat_b**2);
+    const hip = Math.sqrt(cat_a**2+cat_b**2);
 
     return hip
 }
