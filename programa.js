@@ -1,6 +1,11 @@
 function calcular(base, altura){
-    let area;
-    let perimetro;
+
+
+    //let para variable de ámbito local (recomendado)
+    //var para ámbito global
+    //Valor const: que nunca cambia
+    const area;
+    const perimetro;
     area=base*altura
     perimetro=2*(base+altura)
 
