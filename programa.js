@@ -52,3 +52,16 @@ function media(){
     return promedio;
 
 }
+
+function calcular_tiempo(){
+
+    let v1 = parseInt(document.getElementById('x').value)
+    let v2 = parseInt(document.getElementById('y').value)
+    let d = parseInt(document.getElementById('z').value)
+
+    let t = d/(v1-v2)
+    let tf = t*60
+    let resultado = document.getElementById('resultado');
+    resultado.value = tf
+    return tf;
+}
